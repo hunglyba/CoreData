@@ -15,6 +15,17 @@
 		138543C91C75A7C700FFCA53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 138543C71C75A7C700FFCA53 /* LaunchScreen.storyboard */; };
 		138543D41C75A7C800FFCA53 /* CoreDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138543D31C75A7C800FFCA53 /* CoreDataTests.swift */; };
 		138543DF1C75A7C800FFCA53 /* CoreDataUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138543DE1C75A7C800FFCA53 /* CoreDataUITests.swift */; };
+		138543ED1C75AC6A00FFCA53 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 138543EC1C75AC6A00FFCA53 /* CoreData.framework */; };
+		13D1C5641CA2835800925D4B /* CALayer+PKDownloadButtonAnimations.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D1C5511CA2835800925D4B /* CALayer+PKDownloadButtonAnimations.m */; };
+		13D1C5651CA2835800925D4B /* NSLayoutConstraint+PKDownloadButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D1C5531CA2835800925D4B /* NSLayoutConstraint+PKDownloadButton.m */; };
+		13D1C5661CA2835800925D4B /* PKBorderedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D1C5551CA2835800925D4B /* PKBorderedButton.m */; };
+		13D1C5671CA2835800925D4B /* PKCircleProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D1C5571CA2835800925D4B /* PKCircleProgressView.m */; };
+		13D1C5681CA2835800925D4B /* PKCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D1C5591CA2835800925D4B /* PKCircleView.m */; };
+		13D1C5691CA2835800925D4B /* PKDownloadButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D1C55B1CA2835800925D4B /* PKDownloadButton.m */; };
+		13D1C56A1CA2835800925D4B /* PKPendingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D1C55E1CA2835800925D4B /* PKPendingView.m */; };
+		13D1C56B1CA2835800925D4B /* PKStopDownloadButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D1C5601CA2835800925D4B /* PKStopDownloadButton.m */; };
+		13D1C56C1CA2835800925D4B /* UIImage+PKDownloadButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D1C5621CA2835800925D4B /* UIImage+PKDownloadButton.m */; };
+		13D1C56E1CA2944800925D4B /* LoadingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D1C56D1CA2944800925D4B /* LoadingButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		138543B81C75A7C700FFCA53 /* CoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		138543B81C75A7C700FFCA53 /* CoreDataExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		138543BB1C75A7C700FFCA53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		138543BD1C75A7C700FFCA53 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		138543C01C75A7C700FFCA53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -43,12 +54,34 @@
 		138543C51C75A7C700FFCA53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		138543C81C75A7C700FFCA53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		138543CA1C75A7C700FFCA53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		138543CF1C75A7C800FFCA53 /* CoreDataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		138543CF1C75A7C800FFCA53 /* CoreDataExample.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataExample.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		138543D31C75A7C800FFCA53 /* CoreDataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataTests.swift; sourceTree = "<group>"; };
 		138543D51C75A7C800FFCA53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		138543DA1C75A7C800FFCA53 /* CoreDataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		138543DA1C75A7C800FFCA53 /* CoreDataExample.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataExample.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		138543DE1C75A7C800FFCA53 /* CoreDataUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataUITests.swift; sourceTree = "<group>"; };
 		138543E01C75A7C800FFCA53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		138543EC1C75AC6A00FFCA53 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		13D1C52B1CA27A3C00925D4B /* CoreDataExample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CoreDataExample-Bridging-Header.h"; sourceTree = "<group>"; };
+		13D1C5501CA2835800925D4B /* CALayer+PKDownloadButtonAnimations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+PKDownloadButtonAnimations.h"; sourceTree = "<group>"; };
+		13D1C5511CA2835800925D4B /* CALayer+PKDownloadButtonAnimations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+PKDownloadButtonAnimations.m"; sourceTree = "<group>"; };
+		13D1C5521CA2835800925D4B /* NSLayoutConstraint+PKDownloadButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+PKDownloadButton.h"; sourceTree = "<group>"; };
+		13D1C5531CA2835800925D4B /* NSLayoutConstraint+PKDownloadButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+PKDownloadButton.m"; sourceTree = "<group>"; };
+		13D1C5541CA2835800925D4B /* PKBorderedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKBorderedButton.h; sourceTree = "<group>"; };
+		13D1C5551CA2835800925D4B /* PKBorderedButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKBorderedButton.m; sourceTree = "<group>"; };
+		13D1C5561CA2835800925D4B /* PKCircleProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKCircleProgressView.h; sourceTree = "<group>"; };
+		13D1C5571CA2835800925D4B /* PKCircleProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKCircleProgressView.m; sourceTree = "<group>"; };
+		13D1C5581CA2835800925D4B /* PKCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKCircleView.h; sourceTree = "<group>"; };
+		13D1C5591CA2835800925D4B /* PKCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKCircleView.m; sourceTree = "<group>"; };
+		13D1C55A1CA2835800925D4B /* PKDownloadButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKDownloadButton.h; sourceTree = "<group>"; };
+		13D1C55B1CA2835800925D4B /* PKDownloadButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKDownloadButton.m; sourceTree = "<group>"; };
+		13D1C55C1CA2835800925D4B /* PKMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKMacros.h; sourceTree = "<group>"; };
+		13D1C55D1CA2835800925D4B /* PKPendingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKPendingView.h; sourceTree = "<group>"; };
+		13D1C55E1CA2835800925D4B /* PKPendingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKPendingView.m; sourceTree = "<group>"; };
+		13D1C55F1CA2835800925D4B /* PKStopDownloadButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKStopDownloadButton.h; sourceTree = "<group>"; };
+		13D1C5601CA2835800925D4B /* PKStopDownloadButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKStopDownloadButton.m; sourceTree = "<group>"; };
+		13D1C5611CA2835800925D4B /* UIImage+PKDownloadButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+PKDownloadButton.h"; sourceTree = "<group>"; };
+		13D1C5621CA2835800925D4B /* UIImage+PKDownloadButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+PKDownloadButton.m"; sourceTree = "<group>"; };
+		13D1C56D1CA2944800925D4B /* LoadingButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				138543ED1C75AC6A00FFCA53 /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,19 +113,21 @@
 		138543AF1C75A7C700FFCA53 = {
 			isa = PBXGroup;
 			children = (
+				138543EC1C75AC6A00FFCA53 /* CoreData.framework */,
 				138543BA1C75A7C700FFCA53 /* CoreData */,
 				138543D21C75A7C800FFCA53 /* CoreDataTests */,
 				138543DD1C75A7C800FFCA53 /* CoreDataUITests */,
 				138543B91C75A7C700FFCA53 /* Products */,
+				3D8E697D8A3CA9C9B79536F8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		138543B91C75A7C700FFCA53 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				138543B81C75A7C700FFCA53 /* CoreData.app */,
-				138543CF1C75A7C800FFCA53 /* CoreDataTests.xctest */,
-				138543DA1C75A7C800FFCA53 /* CoreDataUITests.xctest */,
+				138543B81C75A7C700FFCA53 /* CoreDataExample.app */,
+				138543CF1C75A7C800FFCA53 /* CoreDataExample.xctest */,
+				138543DA1C75A7C800FFCA53 /* CoreDataExample.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,13 +135,16 @@
 		138543BA1C75A7C700FFCA53 /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
+				13D1C54E1CA2835800925D4B /* Download button */,
 				138543BB1C75A7C700FFCA53 /* AppDelegate.swift */,
 				138543BD1C75A7C700FFCA53 /* ViewController.swift */,
+				13D1C56D1CA2944800925D4B /* LoadingButton.swift */,
 				138543BF1C75A7C700FFCA53 /* Main.storyboard */,
 				138543C51C75A7C700FFCA53 /* Assets.xcassets */,
 				138543C71C75A7C700FFCA53 /* LaunchScreen.storyboard */,
 				138543CA1C75A7C700FFCA53 /* Info.plist */,
 				138543C21C75A7C700FFCA53 /* CoreData.xcdatamodeld */,
+				13D1C52B1CA27A3C00925D4B /* CoreDataExample-Bridging-Header.h */,
 			);
 			path = CoreData;
 			sourceTree = "<group>";
@@ -128,12 +167,46 @@
 			path = CoreDataUITests;
 			sourceTree = "<group>";
 		};
+		13D1C54E1CA2835800925D4B /* Download button */ = {
+			isa = PBXGroup;
+			children = (
+				13D1C5501CA2835800925D4B /* CALayer+PKDownloadButtonAnimations.h */,
+				13D1C5511CA2835800925D4B /* CALayer+PKDownloadButtonAnimations.m */,
+				13D1C5521CA2835800925D4B /* NSLayoutConstraint+PKDownloadButton.h */,
+				13D1C5531CA2835800925D4B /* NSLayoutConstraint+PKDownloadButton.m */,
+				13D1C5541CA2835800925D4B /* PKBorderedButton.h */,
+				13D1C5551CA2835800925D4B /* PKBorderedButton.m */,
+				13D1C5561CA2835800925D4B /* PKCircleProgressView.h */,
+				13D1C5571CA2835800925D4B /* PKCircleProgressView.m */,
+				13D1C5581CA2835800925D4B /* PKCircleView.h */,
+				13D1C5591CA2835800925D4B /* PKCircleView.m */,
+				13D1C55A1CA2835800925D4B /* PKDownloadButton.h */,
+				13D1C55B1CA2835800925D4B /* PKDownloadButton.m */,
+				13D1C55C1CA2835800925D4B /* PKMacros.h */,
+				13D1C55D1CA2835800925D4B /* PKPendingView.h */,
+				13D1C55E1CA2835800925D4B /* PKPendingView.m */,
+				13D1C55F1CA2835800925D4B /* PKStopDownloadButton.h */,
+				13D1C5601CA2835800925D4B /* PKStopDownloadButton.m */,
+				13D1C5611CA2835800925D4B /* UIImage+PKDownloadButton.h */,
+				13D1C5621CA2835800925D4B /* UIImage+PKDownloadButton.m */,
+			);
+			name = "Download button";
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		3D8E697D8A3CA9C9B79536F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		138543B71C75A7C700FFCA53 /* CoreData */ = {
+		138543B71C75A7C700FFCA53 /* CoreDataExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 138543E31C75A7C800FFCA53 /* Build configuration list for PBXNativeTarget "CoreData" */;
+			buildConfigurationList = 138543E31C75A7C800FFCA53 /* Build configuration list for PBXNativeTarget "CoreDataExample" */;
 			buildPhases = (
 				138543B41C75A7C700FFCA53 /* Sources */,
 				138543B51C75A7C700FFCA53 /* Frameworks */,
@@ -143,14 +216,14 @@
 			);
 			dependencies = (
 			);
-			name = CoreData;
+			name = CoreDataExample;
 			productName = CoreData;
-			productReference = 138543B81C75A7C700FFCA53 /* CoreData.app */;
+			productReference = 138543B81C75A7C700FFCA53 /* CoreDataExample.app */;
 			productType = "com.apple.product-type.application";
 		};
-		138543CE1C75A7C800FFCA53 /* CoreDataTests */ = {
+		138543CE1C75A7C800FFCA53 /* CoreDataExampleTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 138543E61C75A7C800FFCA53 /* Build configuration list for PBXNativeTarget "CoreDataTests" */;
+			buildConfigurationList = 138543E61C75A7C800FFCA53 /* Build configuration list for PBXNativeTarget "CoreDataExampleTests" */;
 			buildPhases = (
 				138543CB1C75A7C800FFCA53 /* Sources */,
 				138543CC1C75A7C800FFCA53 /* Frameworks */,
@@ -161,14 +234,14 @@
 			dependencies = (
 				138543D11C75A7C800FFCA53 /* PBXTargetDependency */,
 			);
-			name = CoreDataTests;
+			name = CoreDataExampleTests;
 			productName = CoreDataTests;
-			productReference = 138543CF1C75A7C800FFCA53 /* CoreDataTests.xctest */;
+			productReference = 138543CF1C75A7C800FFCA53 /* CoreDataExample.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		138543D91C75A7C800FFCA53 /* CoreDataUITests */ = {
+		138543D91C75A7C800FFCA53 /* CoreDataExampleUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 138543E91C75A7C800FFCA53 /* Build configuration list for PBXNativeTarget "CoreDataUITests" */;
+			buildConfigurationList = 138543E91C75A7C800FFCA53 /* Build configuration list for PBXNativeTarget "CoreDataExampleUITests" */;
 			buildPhases = (
 				138543D61C75A7C800FFCA53 /* Sources */,
 				138543D71C75A7C800FFCA53 /* Frameworks */,
@@ -179,9 +252,9 @@
 			dependencies = (
 				138543DC1C75A7C800FFCA53 /* PBXTargetDependency */,
 			);
-			name = CoreDataUITests;
+			name = CoreDataExampleUITests;
 			productName = CoreDataUITests;
-			productReference = 138543DA1C75A7C800FFCA53 /* CoreDataUITests.xctest */;
+			productReference = 138543DA1C75A7C800FFCA53 /* CoreDataExample.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -207,7 +280,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 138543B31C75A7C700FFCA53 /* Build configuration list for PBXProject "CoreData" */;
+			buildConfigurationList = 138543B31C75A7C700FFCA53 /* Build configuration list for PBXProject "CoreDataExample" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -220,9 +293,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				138543B71C75A7C700FFCA53 /* CoreData */,
-				138543CE1C75A7C800FFCA53 /* CoreDataTests */,
-				138543D91C75A7C800FFCA53 /* CoreDataUITests */,
+				138543B71C75A7C700FFCA53 /* CoreDataExample */,
+				138543CE1C75A7C800FFCA53 /* CoreDataExampleTests */,
+				138543D91C75A7C800FFCA53 /* CoreDataExampleUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -259,7 +332,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13D1C56E1CA2944800925D4B /* LoadingButton.swift in Sources */,
 				138543BE1C75A7C700FFCA53 /* ViewController.swift in Sources */,
+				13D1C5681CA2835800925D4B /* PKCircleView.m in Sources */,
+				13D1C5641CA2835800925D4B /* CALayer+PKDownloadButtonAnimations.m in Sources */,
+				13D1C56B1CA2835800925D4B /* PKStopDownloadButton.m in Sources */,
+				13D1C56A1CA2835800925D4B /* PKPendingView.m in Sources */,
+				13D1C5691CA2835800925D4B /* PKDownloadButton.m in Sources */,
+				13D1C5651CA2835800925D4B /* NSLayoutConstraint+PKDownloadButton.m in Sources */,
+				13D1C5671CA2835800925D4B /* PKCircleProgressView.m in Sources */,
+				13D1C56C1CA2835800925D4B /* UIImage+PKDownloadButton.m in Sources */,
+				13D1C5661CA2835800925D4B /* PKBorderedButton.m in Sources */,
 				138543BC1C75A7C700FFCA53 /* AppDelegate.swift in Sources */,
 				138543C41C75A7C700FFCA53 /* CoreData.xcdatamodeld in Sources */,
 			);
@@ -286,12 +369,12 @@
 /* Begin PBXTargetDependency section */
 		138543D11C75A7C800FFCA53 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 138543B71C75A7C700FFCA53 /* CoreData */;
+			target = 138543B71C75A7C700FFCA53 /* CoreDataExample */;
 			targetProxy = 138543D01C75A7C800FFCA53 /* PBXContainerItemProxy */;
 		};
 		138543DC1C75A7C800FFCA53 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 138543B71C75A7C700FFCA53 /* CoreData */;
+			target = 138543B71C75A7C700FFCA53 /* CoreDataExample */;
 			targetProxy = 138543DB1C75A7C800FFCA53 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -403,10 +486,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = CoreData/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = LBH.CoreData;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = CoreDataExample;
+				SWIFT_OBJC_BRIDGING_HEADER = "CoreData/CoreDataExample-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -414,10 +500,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = CoreData/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = LBH.CoreData;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = CoreDataExample;
+				SWIFT_OBJC_BRIDGING_HEADER = "CoreData/CoreDataExample-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -428,8 +516,8 @@
 				INFOPLIST_FILE = CoreDataTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = LBH.CoreDataTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoreData.app/CoreData";
+				PRODUCT_NAME = CoreDataExample;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoreDataExample.app/CoreDataExample";
 			};
 			name = Debug;
 		};
@@ -440,8 +528,8 @@
 				INFOPLIST_FILE = CoreDataTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = LBH.CoreDataTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoreData.app/CoreData";
+				PRODUCT_NAME = CoreDataExample;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoreDataExample.app/CoreDataExample";
 			};
 			name = Release;
 		};
@@ -451,7 +539,7 @@
 				INFOPLIST_FILE = CoreDataUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = LBH.CoreDataUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = CoreDataExample;
 				TEST_TARGET_NAME = CoreData;
 				USES_XCTRUNNER = YES;
 			};
@@ -463,7 +551,7 @@
 				INFOPLIST_FILE = CoreDataUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = LBH.CoreDataUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = CoreDataExample;
 				TEST_TARGET_NAME = CoreData;
 				USES_XCTRUNNER = YES;
 			};
@@ -472,7 +560,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		138543B31C75A7C700FFCA53 /* Build configuration list for PBXProject "CoreData" */ = {
+		138543B31C75A7C700FFCA53 /* Build configuration list for PBXProject "CoreDataExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				138543E11C75A7C800FFCA53 /* Debug */,
@@ -481,29 +569,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		138543E31C75A7C800FFCA53 /* Build configuration list for PBXNativeTarget "CoreData" */ = {
+		138543E31C75A7C800FFCA53 /* Build configuration list for PBXNativeTarget "CoreDataExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				138543E41C75A7C800FFCA53 /* Debug */,
 				138543E51C75A7C800FFCA53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		138543E61C75A7C800FFCA53 /* Build configuration list for PBXNativeTarget "CoreDataTests" */ = {
+		138543E61C75A7C800FFCA53 /* Build configuration list for PBXNativeTarget "CoreDataExampleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				138543E71C75A7C800FFCA53 /* Debug */,
 				138543E81C75A7C800FFCA53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		138543E91C75A7C800FFCA53 /* Build configuration list for PBXNativeTarget "CoreDataUITests" */ = {
+		138543E91C75A7C800FFCA53 /* Build configuration list for PBXNativeTarget "CoreDataExampleUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				138543EA1C75A7C800FFCA53 /* Debug */,
 				138543EB1C75A7C800FFCA53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

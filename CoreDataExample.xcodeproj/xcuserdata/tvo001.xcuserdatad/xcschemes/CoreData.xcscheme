@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "138543B71C75A7C700FFCA53"
-               BuildableName = "CoreData.app"
-               BlueprintName = "CoreData"
-               ReferencedContainer = "container:CoreData.xcodeproj">
+               BuildableName = "CoreDataExample.app"
+               BlueprintName = "CoreDataExample"
+               ReferencedContainer = "container:CoreDataExample.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "138543CE1C75A7C800FFCA53"
-               BuildableName = "CoreDataTests.xctest"
-               BlueprintName = "CoreDataTests"
-               ReferencedContainer = "container:CoreData.xcodeproj">
+               BuildableName = "CoreDataExample.xctest"
+               BlueprintName = "CoreDataExampleTests"
+               ReferencedContainer = "container:CoreDataExample.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "138543D91C75A7C800FFCA53"
-               BuildableName = "CoreDataUITests.xctest"
-               BlueprintName = "CoreDataUITests"
-               ReferencedContainer = "container:CoreData.xcodeproj">
+               BuildableName = "CoreDataExample.xctest"
+               BlueprintName = "CoreDataExampleUITests"
+               ReferencedContainer = "container:CoreDataExample.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "138543B71C75A7C700FFCA53"
-            BuildableName = "CoreData.app"
-            BlueprintName = "CoreData"
-            ReferencedContainer = "container:CoreData.xcodeproj">
+            BuildableName = "CoreDataExample.app"
+            BlueprintName = "CoreDataExample"
+            ReferencedContainer = "container:CoreDataExample.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "138543B71C75A7C700FFCA53"
-            BuildableName = "CoreData.app"
-            BlueprintName = "CoreData"
-            ReferencedContainer = "container:CoreData.xcodeproj">
+            BuildableName = "CoreDataExample.app"
+            BlueprintName = "CoreDataExample"
+            ReferencedContainer = "container:CoreDataExample.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "138543B71C75A7C700FFCA53"
-            BuildableName = "CoreData.app"
-            BlueprintName = "CoreData"
-            ReferencedContainer = "container:CoreData.xcodeproj">
+            BuildableName = "CoreDataExample.app"
+            BlueprintName = "CoreDataExample"
+            ReferencedContainer = "container:CoreDataExample.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
